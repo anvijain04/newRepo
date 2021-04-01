@@ -2603,16 +2603,15 @@
 <ObjTypeDefs>
 </ObjTypeDefs>
 <DataFieldDefs>
-<DataFieldDef id="441912259" origId="EsT8IRpISP6vcIG-aL2E6w" objDef="441912258" columnName="OBJ_NAME" fieldName="name" groupName="OBJNAME" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.ObjectLink" isRequired="false" isReadOnly="false" isTextIndexable="true" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912259" origId="EsT8IRpISP6vcIG-aL2E6w" objDef="441912258" columnName="OBJ_NAME" fieldName="name" groupName="OBJNAME" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.ObjectLink" isRequired="false" isReadOnly="false" isTextIndexable="true" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>test 15</DisplayLabel>
 <Props>
 <isLocalized>true</isLocalized>
 </Props>
 <Translations>
-<Translation  fieldName="displayLabel" langCode="fr" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912260" origId="AMo3daxFRXqziNkNcn-ExA" objDef="441912258" fieldName="comment" groupName="COMMENT" dataClassName="com.rb.core.data.definition.FieldComment" uiClassName="com.rb.core.ui.web.field.CommentsArea" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912260" origId="AMo3daxFRXqziNkNcn-ExA" objDef="441912258" fieldName="comment" groupName="COMMENT" dataClassName="com.rb.core.data.definition.FieldComment" uiClassName="com.rb.core.ui.web.field.CommentsArea" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>Comments</DisplayLabel>
 <Props>
 <rows>10</rows>
@@ -2622,43 +2621,43 @@
 <Translation  fieldName="displayLabel" langCode="fr" text="Commentaires" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912261" origId="NRQB4xd7TsWcdpZwVjM7gQ" objDef="441912258" columnName="CREATED_BY" fieldName="createdBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912261" origId="NRQB4xd7TsWcdpZwVjM7gQ" objDef="441912258" columnName="CREATED_BY" fieldName="createdBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>Created By</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="Cr&#233;&#233; par" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912262" origId="ZkySLGSSQzWrl3xDgAMmng" objDef="441912258" columnName="CREATED_AT" fieldName="createdAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912262" origId="ZkySLGSSQzWrl3xDgAMmng" objDef="441912258" columnName="CREATED_AT" fieldName="createdAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>Created At</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="Cr&#233;&#233; &#224;" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912263" origId="LmkWiqLRQXOcsKtLJmcQ0A" objDef="441912258" columnName="UPDATED_BY" fieldName="updatedBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912263" origId="LmkWiqLRQXOcsKtLJmcQ0A" objDef="441912258" columnName="UPDATED_BY" fieldName="updatedBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>Updated By</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="Mis &#224; jour par" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912264" origId="76VidicwSZqeuri2z-syDQ" objDef="441912258" columnName="UPDATED_AT" fieldName="updatedAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912264" origId="76VidicwSZqeuri2z-syDQ" objDef="441912258" columnName="UPDATED_AT" fieldName="updatedAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>Updated At</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="Mis &#224; jour &#224;" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912265" origId="8Tag7IxKTjSN_-OW6Y5xpg" objDef="441912258" columnName="OBJ_ID" fieldName="id" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.IntInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912265" origId="8Tag7IxKTjSN_-OW6Y5xpg" objDef="441912258" columnName="OBJ_ID" fieldName="id" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.IntInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>ID</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="ID" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912266" origId="U0b3giZkSpG6Zl6VQp_CFQ" objDef="441912258" columnName="CREATED_BY_DEF_ID" fieldName="createdByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912266" origId="U0b3giZkSpG6Zl6VQp_CFQ" objDef="441912258" columnName="CREATED_BY_DEF_ID" fieldName="createdByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>createdByDefId_field</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="createdByDefId_field" />
 </Translations>
 </DataFieldDef>
-<DataFieldDef id="441912267" origId="80zTWAojTiqh9faL8RQkeQ" objDef="441912258" columnName="UPDATED_BY_DEF_ID" fieldName="updatedByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DataFieldDef id="441912267" origId="80zTWAojTiqh9faL8RQkeQ" objDef="441912258" columnName="UPDATED_BY_DEF_ID" fieldName="updatedByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
 <DisplayLabel>updatedByDefId_field</DisplayLabel>
 <Translations>
 <Translation  fieldName="displayLabel" langCode="fr" text="updatedByDefId_field" />
@@ -2668,7 +2667,7 @@
 <FieldDependencies>
 </FieldDependencies>
 <ListViews>
-<ListView id="441912314" origId="db-Se8LWRlCxdkdtIOmSIA" orderNo="0" objDefId="441912258" isSystem="true" objTypeId="-1" >
+<ListView id="441912314" origId="db-Se8LWRlCxdkdtIOmSIA" orderNo="0" objDefId="441912258" isSystem="true" objTypeId="0" >
 <ViewName>All test 15s</ViewName>
 <Translations>
 <Translation  fieldName="name" langCode="fr" text="Tous les test 15s" />
@@ -3136,7 +3135,7 @@
 <PageDefName>test 15s Selector List</PageDefName>
 <JspName>../m/selector.jsp</JspName>
 <WebPages>
-<WebPage id="441912279" origId="SlcdfyqOTy-5BRbnyrI5bg" pageDefId="441912278" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912279" origId="SlcdfyqOTy-5BRbnyrI5bg" pageDefId="441912278" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>test 15s Selector List</PageName>
 <PageSections>
 <PageSection id="441912319" origId="knhvEsyXQ6eu3DQJxtjiIA" pageId="441912279" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -3245,7 +3244,7 @@
 <PageDefName>Edit test 15</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912277" origId="LVOoPh_TS8aEovue_0ZmQQ" pageDefId="441912276" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912277" origId="LVOoPh_TS8aEovue_0ZmQQ" pageDefId="441912276" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>Edit test 15</PageName>
 <PageSections>
 <PageSection id="441912308" origId="uHj28gykR46FAsrxo_aq5w" pageId="441912277" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -3385,7 +3384,7 @@
 <PageDefName>View test 15</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912275" origId="6kncYLb4SCOhXRBlderpqA" pageDefId="441912274" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912275" origId="6kncYLb4SCOhXRBlderpqA" pageDefId="441912274" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>View test 15</PageName>
 <PageSections>
 <PageSection id="441912296" origId="twFhFMfoSp2jKy-WGPSVYQ" pageId="441912275" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -3483,7 +3482,7 @@
 <PageDefName>Quick Create</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912273" origId="gjTnUORoTQ-pVeJC7MpbJg" pageDefId="441912272" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912273" origId="gjTnUORoTQ-pVeJC7MpbJg" pageDefId="441912272" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>Quick Create</PageName>
 <PageSections>
 <PageSection id="441912336" origId="KP2DS6nHQyuQA6Cok59ksw" pageId="441912273" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -3531,7 +3530,7 @@
 <PageDefName>Status Change</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912287" origId="-ZUAfkxwSs-t4-AeuBVZAg" pageDefId="441912286" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912287" origId="-ZUAfkxwSs-t4-AeuBVZAg" pageDefId="441912286" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>Status Change</PageName>
 <PageSections>
 <PageSection id="441912323" origId="mrPA5X0nQMy1lWX6lTqFpA" pageId="441912287" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -3659,7 +3658,7 @@
 <PageDefName>Search Results</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912282" origId="dHp6v5tQSIe_lgLBeWrx9Q" pageDefId="441912281" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912282" origId="dHp6v5tQSIe_lgLBeWrx9Q" pageDefId="441912281" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>Search Results</PageName>
 <PageSections>
 <PageSection id="441912317" origId="1nV2bF3GRV2-fQxflcORPw" pageId="441912282" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -4155,7 +4154,7 @@
 <PageDefName>New test 15</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912271" origId="y9Bo4JoZSVuqg42WWgCyEw" pageDefId="441912270" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912271" origId="y9Bo4JoZSVuqg42WWgCyEw" pageDefId="441912270" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>New test 15</PageName>
 <PageSections>
 <PageSection id="441912290" origId="DKrVFA5JRWKOdu4JyN59Ww" pageId="441912271" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -4310,7 +4309,7 @@
 <PageDefName>test 15s List</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912269" origId="EAl0gjXFTuKHXr986exidQ" pageDefId="441912268" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912269" origId="EAl0gjXFTuKHXr986exidQ" pageDefId="441912268" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>test 15s List</PageName>
 <PageSections>
 <PageSection id="441912315" origId="9YV5o4D4R2K5GI3FF38sjA" pageId="441912269" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
@@ -5243,7 +5242,7 @@
 <PageDefName>Mass Update</PageDefName>
 <JspName>../m/main.jsp</JspName>
 <WebPages>
-<WebPage id="441912289" origId="PVYW-34bS6iO0zlySgoFLg" pageDefId="441912288" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<WebPage id="441912289" origId="PVYW-34bS6iO0zlySgoFLg" pageDefId="441912288" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
 <PageName>Mass Update</PageName>
 <PageSections>
 <PageSection id="441912330" origId="YQSw11JCTSWUrEOx_91y6A" pageId="441912289" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
