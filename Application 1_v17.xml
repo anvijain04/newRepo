@@ -2688,6 +2688,108 @@
 <Translations>
 </Translations>
 </DataObjectDef>
+<DataObjectDef id="441913260" origId="RhNPDfbIRmS3yJODOVZK_g" objDefName="test_17" isSystem="false" isAuditable="false" isViewable="false" isFlaggable="false" isDependent="false" isDeployed="true" isExtensible="false" >
+<Props>
+<isDedicatedDef>false</isDedicatedDef>
+<auditCreate>false</auditCreate>
+<defProcess>-1</defProcess>
+<auditView>false</auditView>
+<enableReports>true</enableReports>
+<auditDelete>false</auditDelete>
+<googSynch>false</googSynch>
+<auditEdit>false</auditEdit>
+</Props>
+<SingularName>test 17</SingularName>
+<PluralName>test 17s</PluralName>
+<ObjTypeDefs>
+</ObjTypeDefs>
+<DataFieldDefs>
+<DataFieldDef id="441913261" origId="kvKd3wXVQOWE4BGyR6UZOw" objDef="441913260" columnName="OBJ_NAME" fieldName="name" groupName="OBJNAME" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.ObjectLink" isRequired="false" isReadOnly="false" isTextIndexable="true" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>test 17</DisplayLabel>
+<Props>
+<isLocalized>true</isLocalized>
+</Props>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913262" origId="c7aD0UdmT66RsjKBCAl9PQ" objDef="441913260" fieldName="comment" groupName="COMMENT" dataClassName="com.rb.core.data.definition.FieldComment" uiClassName="com.rb.core.ui.web.field.CommentsArea" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>Comments</DisplayLabel>
+<Props>
+<rows>10</rows>
+<cols>60</cols>
+</Props>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Commentaires" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913263" origId="WIHg0zzVQxSoebZ0tjCc0g" objDef="441913260" columnName="CREATED_BY" fieldName="createdBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>Created By</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Cr&#233;&#233; par" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913264" origId="_ta7LYHsR5OFe68fJs7xmQ" objDef="441913260" columnName="CREATED_AT" fieldName="createdAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>Created At</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Cr&#233;&#233; &#224;" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913265" origId="x4s-zuwDQAC-5e-CMy_sYA" objDef="441913260" columnName="UPDATED_BY" fieldName="updatedBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>Updated By</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Mis &#224; jour par" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913266" origId="h_3wt2XgR_mXdNsgmppQGg" objDef="441913260" columnName="UPDATED_AT" fieldName="updatedAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>Updated At</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Mis &#224; jour &#224;" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913267" origId="PyJ2-xq-RguKrkp6hRMllg" objDef="441913260" columnName="OBJ_ID" fieldName="id" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.IntInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>ID</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="ID" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913268" origId="aP-k9CRpQeaoJeGbdhpoGA" objDef="441913260" columnName="CREATED_BY_DEF_ID" fieldName="createdByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>createdByDefId_field</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="createdByDefId_field" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="441913269" origId="SWCyPoi0QXiDZL7qQoEO4A" objDef="441913260" columnName="UPDATED_BY_DEF_ID" fieldName="updatedByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="-1" >
+<DisplayLabel>updatedByDefId_field</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="updatedByDefId_field" />
+</Translations>
+</DataFieldDef>
+</DataFieldDefs>
+<FieldDependencies>
+</FieldDependencies>
+<ListViews>
+<ListView id="441913316" origId="F2PI63nSQ6KqMX8By7Fyxw" orderNo="0" objDefId="441913260" isSystem="true" objTypeId="-1" >
+<ViewName>All test 17s</ViewName>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Tous les test 17s" />
+</Translations>
+<Props>
+<smartPhone>true</smartPhone>
+<tablet>true</tablet>
+<defSortCol>441913266</defSortCol>
+<defSortAsc>false</defSortAsc>
+<desktop>true</desktop>
+</Props>
+<Columns>
+441913261,441913266,441913265,</Columns>
+</ListView>
+</ListViews>
+<MobileCards>
+</MobileCards>
+<Translations>
+</Translations>
+</DataObjectDef>
 </DataObjectDefs>
 <Menus>
 <Menu id="12108" origId="F_UrLSYcRkycCuYw5RYGJg" objDefId="12011" orderNo="1" parentId="-1" pageDefId="12056" >
@@ -2851,6 +2953,41 @@
 </Translations>
 </Menu>
 <Menu id="441912346" origId="kQ2X2p1ORzGOhS15_8PuYg" objDefId="441912258" orderNo="4" parentId="441912342" pageDefId="441912284" >
+<DisplayName>Templates</DisplayName>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Mod&#232;les" />
+</Translations>
+</Menu>
+</Menus></Menu>
+<Menu id="441913344" origId="j-dnb7qZTsidgPtJguIKnA" objDefId="441913260" orderNo="1" parentId="-1" pageDefId="441913270" >
+<DisplayName>test 17s</DisplayName>
+<Props>
+<smartPhone>true</smartPhone>
+<tablet>true</tablet>
+<tabLogoType>0</tabLogoType>
+<desktop>true</desktop>
+</Props>
+<Translations>
+</Translations>
+<Menus><Menu id="441913345" origId="TZMRuMIBS2CBzyzo3_ty6A" objDefId="441913260" orderNo="1" parentId="441913344" pageDefId="441913272" >
+<DisplayName>New test 17</DisplayName>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Nouveau test 17" />
+</Translations>
+</Menu>
+<Menu id="441913346" origId="XeRTi4jbRyWZNi2ClzXz3w" objDefId="441913260" orderNo="2" parentId="441913344" pageDefId="441913282" >
+<DisplayName>Search</DisplayName>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Recherche" />
+</Translations>
+</Menu>
+<Menu id="441913347" origId="vSqxWizERoWwxIN_CAuaoQ" objDefId="441913260" orderNo="3" parentId="441913344" pageDefId="441913285" >
+<DisplayName>Import</DisplayName>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Importer" />
+</Translations>
+</Menu>
+<Menu id="441913348" origId="kwaWuWCtS0aGKQ1ef2TnOQ" objDefId="441913260" orderNo="4" parentId="441913344" pageDefId="441913286" >
 <DisplayName>Templates</DisplayName>
 <Translations>
 <Translation  fieldName="name" langCode="fr" text="Mod&#232;les" />
@@ -3853,6 +3990,22 @@
 <Translations>
 </Translations>
 </WebPageDef>
+<WebPageDef id="441913287" origId="Hw-XogEKS2KYWlx_f5SGpQ" isPortal="false" objDefId="441913260" pageType="21" >
+<PageDefName>Questions</PageDefName>
+<JspName>../components/questions.jsp</JspName>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913286" origId="-mQyQCuNQummLU5LulIIjw" isPortal="false" objDefId="441913260" pageType="12" >
+<PageDefName>Templates</PageDefName>
+<JspName>../m/templates.jsp</JspName>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
 <WebPageDef id="12049" origId="MV_g53SLQkW33lx1rB68cQ" isPortal="false" objDefId="12011" pageType="5" >
 <PageDefName>Search Results</PageDefName>
 <JspName>../m/main.jsp</JspName>
@@ -3912,6 +4065,14 @@
 <Translation  fieldName="name" langCode="fr" text="Liste de LDF objects" />
 </Translations>
 </WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913285" origId="HhfcNhwaQk6k5ZtRD7QUZQ" isPortal="false" objDefId="441913260" pageType="10" >
+<PageDefName>Import</PageDefName>
+<JspName>../m/import.jsp</JspName>
+<WebPages>
 </WebPages>
 <Translations>
 </Translations>
@@ -4012,12 +4173,51 @@
 <Translations>
 </Translations>
 </WebPageDef>
+<WebPageDef id="441913283" origId="KEM8Dv4wRtqH1IdPN4dM2A" isPortal="false" objDefId="441913260" pageType="5" >
+<PageDefName>Search Results</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913284" origId="pADYJvrPT4izteCGB48AUg" pageDefId="441913283" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>Search Results</PageName>
+<PageSections>
+<PageSection id="441913319" origId="qz7mTRYuQu6d_Z4zUBkyrw" pageId="441913284" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>test 17s Search Results</SectionTitle>
+<PageCells>
+<PageCell id="441913320" origId="BJ-eaS55TU67U8DkRizEhA" sectionId="441913319" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SearchResultsList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>441913260</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="R&#233;sultats de recherche de test 17s" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="R&#233;sultats de la recherche" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
 <WebPageDef id="12053" origId="PRt2paw8SGSnBvUHT4hU0Q" isPortal="false" objDefId="12011" pageType="4" >
 <PageDefName>Search</PageDefName>
 <JspName>../m/search.jsp</JspName>
 <Props>
 <isManaged>false</isManaged>
 </Props>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913282" origId="gzGnsAQ3Sdegrp6aIMbJGA" isPortal="false" objDefId="441913260" pageType="4" >
+<PageDefName>Search</PageDefName>
+<JspName>../m/search.jsp</JspName>
 <WebPages>
 </WebPages>
 <Translations>
@@ -4072,6 +4272,48 @@
 <isManaged>false</isManaged>
 </Props>
 <WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913280" origId="OCTxAgASSX6yU-fevROZiQ" isPortal="false" objDefId="441913260" pageType="7" >
+<PageDefName>test 17s Selector List</PageDefName>
+<JspName>../m/selector.jsp</JspName>
+<WebPages>
+<WebPage id="441913281" origId="4n1WCKwFR8ilUtM9r0uwkQ" pageDefId="441913280" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>test 17s Selector List</PageName>
+<PageSections>
+<PageSection id="441913321" origId="ccLPtHD4S-CMKjatRs0ZiQ" pageId="441913281" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Search Form</SectionTitle>
+<PageCells>
+<PageCell id="441913322" origId="NWDmisvRQ36QLfj270cayw" sectionId="441913321" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SelectorSearch" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Formulaire de recherche" />
+</Translations>
+</PageSection>
+<PageSection id="441913323" origId="2BbvgHR1TA67fQoIinfLrQ" pageId="441913281" orderNo="1" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>test 17s Selector</SectionTitle>
+<PageCells>
+<PageCell id="441913324" origId="gO0hgPc7TVqvjLI7Fd1OHA" sectionId="441913323" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SelectorList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>441913260</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="S&#233;lecteur de test 17s" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Liste de s&#233;lection de test 17s" />
+</Translations>
+</WebPage>
 </WebPages>
 <Translations>
 </Translations>
@@ -4618,6 +4860,57 @@
 <Translations>
 </Translations>
 </WebPageDef>
+<WebPageDef id="441913290" origId="_WhxqekzReW6KZsnJiLycw" isPortal="false" objDefId="441913260" pageType="17" >
+<PageDefName>Mass Update</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913291" origId="Vn3AiaSwTsOqP7royQSXCw" pageDefId="441913290" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>Mass Update</PageName>
+<PageSections>
+<PageSection id="441913332" origId="Zh6d_G_6Sj-EMkw6qa6wXA" pageId="441913291" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="441913333" origId="sIBtcGAeSmmrSFljPcftSg" sectionId="441913332" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.MassUpdateFormBegin" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="D&#233;but de page" />
+</Translations>
+</PageSection>
+<PageSection id="441913334" origId="tPgG-igpTWyBy8vZ8bcraA" pageId="441913291" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Mass Update</SectionTitle>
+<PageCells>
+<PageCell id="441913335" origId="tfwinyCzTpOZjJ6zWxvy-w" sectionId="441913334" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.TemplateHTML" >
+<TextB64>TWFzcyBVcGRhdGUgcGFnZXMgYWxsb3cgeW91IHRvIGNoYW5nZSBmaWVsZCB2YWx1ZXMgZm9yIG11bHRpcGxlIHJlY29yZHMgc2ltdWx0YW5lb3VzbHkuIDxzdHJvbmc+QW55IGZpZWxkcyBsZWZ0IGJsYW5rIHdpbGwgbm90IGJlIHVwZGF0ZWQuPC9zdHJvbmc+IFlvdSBvciB5b3VyIGFkbWluaXN0cmF0b3IgY2FuIGVkaXQgdGhpcyBwYWdlIHRvIGFkZCBvciByZW1vdmUgZmllbGRzIHlvdSB3YW50IHRvIGJlIGFibGUgdG8gdXBkYXRlIGZyb20gdGhpcyBwYWdlLg==</TextB64>
+<Translations>
+</Translations>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Mise &#224; jour collective" />
+</Translations>
+</PageSection>
+<PageSection id="441913336" origId="2w3jt2d6TOWjTNExuN1fZA" pageId="441913291" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="441913337" origId="2p4Mc5pBTcax9XASRqK5Zg" sectionId="441913336" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Fin de page" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Mise &#224; jour collective" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
 <WebPageDef id="439824169" origId="S4QpideRRey6zKt7Q8QMrg" isPortal="false" objDefId="439824157" pageType="18" >
 <PageDefName>Quick Create</PageDefName>
 <JspName>../m/main.jsp</JspName>
@@ -4708,6 +5001,59 @@
 </PageSections>
 <Translations>
 <Translation  fieldName="name" langCode="fr" text="Modifier School details" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913288" origId="g4fip05wRQa4y-0gD1NDEA" isPortal="false" objDefId="441913260" pageType="6" >
+<PageDefName>Status Change</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913289" origId="JghyLiaEQiWXIKlkrpF-eA" pageDefId="441913288" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>Status Change</PageName>
+<PageSections>
+<PageSection id="441913325" origId="mOEQ0EAcRa2puFYLbTVpeg" pageId="441913289" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="441913326" origId="lbpHOcxURla4NGF2jjGpBA" sectionId="441913325" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.StatusFormBegin" >
+<TextB64>U3RhdHVzIENoYW5nZQ==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="D&#233;but de page" />
+</Translations>
+</PageSection>
+<PageSection id="441913327" origId="YceZpscPSrmhMKR8D786DQ" pageId="441913289" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Confirm Status Change</SectionTitle>
+<PageCells>
+<PageCell id="441913328" origId="VtJPc04VRe6li-SIGsbYUA" sectionId="441913327" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.TemplateHTML" >
+<TextB64>Q2hhbmdlIHRoZSBXb3JrZmxvdyBTdGF0dXMgb2YgPHN0cm9uZz57IW5hbWV9PC9zdHJvbmc+IHRvIDxzdHJvbmc+eyFuZXh0U3RhdHVzfTwvc3Ryb25nPiA/</TextB64>
+<Translations>
+</Translations>
+</PageCell>
+<PageCell id="441913329" origId="jdzIwTD7T9KOKVadkkZCFA" sectionId="441913327" orderNo="1" alignment="0" fieldId="441913262" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Confirmer la modification d'&#233;tat" />
+</Translations>
+</PageSection>
+<PageSection id="441913330" origId="mDYG5zgCTO-RkjepwuffJg" pageId="441913289" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="441913331" origId="vyfRzUmFSXicmbMLgpD5GA" sectionId="441913330" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>U3RhdHVzIENoYW5nZQ==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Fin de page" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Modification de l'&#233;tat" />
 </Translations>
 </WebPage>
 </WebPages>
@@ -5776,6 +6122,255 @@
 <Translations>
 </Translations>
 </WebPageDef>
+<WebPageDef id="441913270" origId="1dTI88vxTLu1zzwvyQpcOQ" isPortal="false" objDefId="441913260" pageType="22" >
+<PageDefName>test 17s List</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913271" origId="Q6Yf0nLVT8Gu2gQLQYbv9g" pageDefId="441913270" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>test 17s List</PageName>
+<PageSections>
+<PageSection id="441913317" origId="NDdzDW0ETzGpGX5-rl5IOg" pageId="441913271" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>All test 17s</SectionTitle>
+<PageCells>
+<PageCell id="441913318" origId="lf4JQ1E_RGKWA-jdnA38xQ" sectionId="441913317" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.PageableList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>441913260</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Tous les test 17s" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Liste de test 17s" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913278" origId="J_5ani_sQoWhIKMeatjIfA" isPortal="false" objDefId="441913260" pageType="2" >
+<PageDefName>Edit test 17</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913279" origId="iuX0mJ3lSBaZk3ULn-REDA" pageDefId="441913278" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>Edit test 17</PageName>
+<PageSections>
+<PageSection id="441913310" origId="7UtWJEi7TSaRfg6jNucTzQ" pageId="441913279" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="441913311" origId="wG-8YOpdRla0p4JGt417IQ" sectionId="441913310" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="D&#233;but de page" />
+</Translations>
+</PageSection>
+<PageSection id="441913312" origId="8SSmq3ISR0eci6-GdE_4ZA" pageId="441913279" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>test 17 Information</SectionTitle>
+<PageCells>
+<PageCell id="441913313" origId="VrmFpDcTTsKVUI_TUGpanQ" sectionId="441913312" orderNo="0" alignment="0" fieldId="441913261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Donn&#233;es de test 17" />
+</Translations>
+</PageSection>
+<PageSection id="441913314" origId="bk2a2YXMRbGAYSmubTzuew" pageId="441913279" orderNo="2" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="441913315" origId="MbgCHWN2QACZrxhNMpQhFQ" sectionId="441913314" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Fin de page" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Modifier test 17" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913276" origId="QjrCBMqmTiOcIrnXmOu6pQ" isPortal="false" objDefId="441913260" pageType="1" >
+<PageDefName>View test 17</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913277" origId="fMjnZM7TSk6MwrzBndXLxg" pageDefId="441913276" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>View test 17</PageName>
+<PageSections>
+<PageSection id="441913298" origId="QzFUnbqPQO-2RaC228BLTQ" pageId="441913277" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="441913299" origId="jScsKJiTRmqKptEuuoKx7w" sectionId="441913298" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectViewBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="D&#233;but de page" />
+</Translations>
+</PageSection>
+<PageSection id="441913300" origId="1QDaZ3ICSXO8HhxlpX_S0g" pageId="441913277" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="true" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>test 17 Information</SectionTitle>
+<PageCells>
+<PageCell id="441913301" origId="nZkuhUYRReyf9XCQvgWXTA" sectionId="441913300" orderNo="0" alignment="0" fieldId="441913261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Donn&#233;es de test 17" />
+</Translations>
+</PageSection>
+<PageSection id="441913302" origId="csN0aLzyRTawqdwh3_rJFQ" pageId="441913277" orderNo="2" borderStyle="1" columns="2" viewTabNo="1" pageColNo="0" isCollapsable="true" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>System Information</SectionTitle>
+<PageCells>
+<PageCell id="441913303" origId="gwrg7ahtQoeLyUzNQ8nooA" sectionId="441913302" orderNo="0" alignment="0" fieldId="441913263" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="441913304" origId="R4v088NBTmK-DK40853yxg" sectionId="441913302" orderNo="1" alignment="1" fieldId="441913264" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="441913305" origId="Tnw6oFhfTAWzgXIKod1v1A" sectionId="441913302" orderNo="2" alignment="0" fieldId="441913265" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="441913306" origId="WsbgsXfuSti3x9M8y_C11w" sectionId="441913302" orderNo="3" alignment="1" fieldId="441913266" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="441913307" origId="3Lspo1pCSTyhFCBB-d52yQ" sectionId="441913302" orderNo="4" alignment="0" fieldId="441913267" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Informations syst&#232;me" />
+</Translations>
+</PageSection>
+<PageSection id="441913308" origId="Il7bbTv3Ts-aOkAY9w5oLg" pageId="441913277" orderNo="3" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="441913309" origId="vDL7BFXtT6ONtYAbbJjI3A" sectionId="441913308" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectViewEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Fin de page" />
+</Translations>
+</PageSection>
+</PageSections>
+<Props>
+<enableTabs>true</enableTabs>
+<tabName1>System Info</tabName1>
+<numTabs>2</numTabs>
+<tabName0>test 17 Info</tabName0>
+</Props>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Afficher test 17" />
+<Translation  fieldName="tabName1" langCode="fr" text="Informations syst&#232;me" />
+<Translation  fieldName="tabName0" langCode="fr" text="Donn&#233;es de test 17" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913274" origId="X2_JGhV4RdCazBF6qr45cQ" isPortal="false" objDefId="441913260" pageType="18" >
+<PageDefName>Quick Create</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913275" origId="1pVQ5No3RUKCcxTxQ8JEeg" pageDefId="441913274" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>Quick Create</PageName>
+<PageSections>
+<PageSection id="441913338" origId="jVJXQdW2TZ6xdZdI-R7Bgw" pageId="441913275" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="441913339" origId="u1lXVsPRQ0WgEi9TgyFHig" sectionId="441913338" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.QuickCreateFormBegin" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="D&#233;but de page" />
+</Translations>
+</PageSection>
+<PageSection id="441913340" origId="kruZR_RXTdiKuS8Sppnusw" pageId="441913275" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Quick Create</SectionTitle>
+<PageCells>
+<PageCell id="441913341" origId="i1LlASCxT2uhPX2gktS1Ng" sectionId="441913340" orderNo="0" alignment="0" fieldId="441913261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Cr&#233;ation rapide" />
+</Translations>
+</PageSection>
+<PageSection id="441913342" origId="udvc_GZpQmmbro-6DVOwbQ" pageId="441913275" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="441913343" origId="hwAM4QnHR6SvcW5x4hixeg" sectionId="441913342" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Fin de page" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Cr&#233;ation rapide" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="441913272" origId="wvIvpmzbRiqbmBUOpgGF_w" isPortal="false" objDefId="441913260" pageType="3" >
+<PageDefName>New test 17</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="441913273" origId="ele9XDcaQ3almtdgvnsDeA" pageDefId="441913272" isBaseVersion="true" isLoginOnly="false" objTypeId="-1" >
+<PageName>New test 17</PageName>
+<PageSections>
+<PageSection id="441913292" origId="xmfJJecfRK-jmxO4xAiHYw" pageId="441913273" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="441913293" origId="Zf0jUNx6SF6SKefDADdxMw" sectionId="441913292" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="D&#233;but de page" />
+</Translations>
+</PageSection>
+<PageSection id="441913294" origId="3wEiF32eTdiwF3eD8G7TFw" pageId="441913273" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>test 17 Information</SectionTitle>
+<PageCells>
+<PageCell id="441913295" origId="I-1_S2P0QnWpaeV6kwRIfg" sectionId="441913294" orderNo="0" alignment="0" fieldId="441913261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Donn&#233;es de test 17" />
+</Translations>
+</PageSection>
+<PageSection id="441913296" origId="_QBSVmBqRaSK3ayahTTRhA" pageId="441913273" orderNo="2" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="441913297" origId="RN6ViTvkRJWLz2pvz16tDw" sectionId="441913296" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Fin de page" />
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Nouveau test 17" />
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
 <WebPageDef id="12023" origId="-fxN4FVTQAGfLv6gdjpK6w" isPortal="false" objDefId="12011" pageType="17" >
 <PageDefName>Mass Update</PageDefName>
 <JspName>../m/main.jsp</JspName>
@@ -6296,6 +6891,14 @@
 <Permission resId="441912345" prId="98" actionsSet="1">
 </Permission>
 <Permission resId="441912346" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="441913345" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="441913346" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="441913347" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="441913348" prId="98" actionsSet="1">
 </Permission>
 <Permission resId="7411" prId="7598" actionsSet="1">
 </Permission>
