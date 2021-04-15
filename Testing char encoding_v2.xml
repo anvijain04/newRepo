@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application id="314856" origId="oWB90pZeT_W97B4Ze6kIPg" orderNo="6" isSystem="false" version="2" packedId="0" language="en" >
+<DisplayName>Testing char encoding</DisplayName>
+<Props>
+<dependentDefs>,</dependentDefs>
+<appTheme>rbdefault</appTheme>
+<bootstrapVersion>4.3.1</bootstrapVersion>
+<cellLabelRenderingModeSmartphone>forceAllLabelsAbove</cellLabelRenderingModeSmartphone>
+<useNativeTimeOrDateControl>false</useNativeTimeOrDateControl>
+<createdRBVersion>5.6.0.0</createdRBVersion>
+<isHidden>false</isHidden>
+<corticonServerToUse>2</corticonServerToUse>
+<notificationPosition>topRight</notificationPosition>
+<isAppRuntimeRTL>false</isAppRuntimeRTL>
+<cellLabelRenderingModeTablet>forceAllLabelsAbove</cellLabelRenderingModeTablet>
+<useLegacyHeaderFooter>false</useLegacyHeaderFooter>
+<isHorizontalResponsiveDesign>false</isHorizontalResponsiveDesign>
+<helpField>false</helpField>
+<installedAt>1584004160222</installedAt>
+<cellLabelRenderingModeDesktop>forceAllLabelsToSide</cellLabelRenderingModeDesktop>
+<isDeployed>true</isDeployed>
+<isManaged>0</isManaged>
+<gridControlSelectiveEdit>1</gridControlSelectiveEdit>
+<lastUpdatedRBVersion>5.6.0.0</lastUpdatedRBVersion>
+<pubManaged>0</pubManaged>
+<showMenus>false</showMenus>
+<isLogoHidden>false</isLogoHidden>
+</Props>
+<uiTemplateType>2</uiTemplateType>
+<uiTemplateUID>fqgP_UJGRbSVHJJ4UD_ThQ</uiTemplateUID>
+<uiTemplateMobileType>2</uiTemplateMobileType>
+<uiTemplateMobileUID>fvvFY-CbQI-vTLO2P_e-dg</uiTemplateMobileUID>
+<uiTemplateMobileProps>
+<isMobileTemplate>true</isMobileTemplate>
+</uiTemplateMobileProps>
+<DependentDefs>
+<DataObjectDef id="7538" origId="9058" objDefName="USER" >
+<SingularName>User</SingularName>
+<PluralName>Users</PluralName>
+<Description>Users are people who have access to your Infinite Blue account. Each user has an assigned Role which generally determines which applications and features they have access to.</Description>
+<ObjTypeDefs>
+</ObjTypeDefs>
+<DataFieldDefs>
+<DataFieldDef id="7539" origId="9085" fieldName="lastApplication" >
+<DisplayLabel>Last Application ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7540" origId="9079" fieldName="timeZone" >
+<DisplayLabel>Time Zone</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7541" origId="30104" fieldName="mailHeader" >
+<DisplayLabel>Email Header</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7542" origId="3283318" fieldName="googPword" >
+<DisplayLabel>Google Password</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7543" origId="5948169" fieldName="isvAppDirId" >
+<DisplayLabel>App Directory Portal ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7544" origId="9063" fieldName="createdBy" >
+<DisplayLabel>Created By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7545" origId="5913512" fieldName="isvHome" >
+<DisplayLabel>ISV Home Page</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7546" origId="9089" fieldName="newsletter" >
+<DisplayLabel>Email Updates</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7547" origId="8504" fieldName="isApiOnly" >
+<DisplayLabel>API Only Access</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7548" origId="5947932" fieldName="isvLoginUrl" >
+<DisplayLabel>ISV Login URL</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7549" origId="7606172" fieldName="isvSupportUrl" >
+<DisplayLabel>ISV Support URL</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7550" origId="2109952" fieldName="PUSER" >
+<DisplayLabel>Reports To</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7551" origId="2538" fieldName="USER_comm" >
+<DisplayLabel>Communication Log</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7552" origId="2370049" fieldName="functionId" >
+<DisplayLabel>Function</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7553" origId="2352068" fieldName="isApprover1" >
+<DisplayLabel>Approver</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7554" origId="72980" fieldName="Revent1" >
+<DisplayLabel>Events</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7555" origId="9075" fieldName="pwdStatus" >
+<DisplayLabel>Password Status</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7556" origId="3283317" fieldName="googUname" >
+<DisplayLabel>Google User Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7557" origId="2109953" fieldName="CUSER" >
+<DisplayLabel>Direct Reports</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7558" origId="73342" fieldName="Rtask" >
+<DisplayLabel>Tasks</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7559" origId="19339" fieldName="tempPassword" >
+<DisplayLabel>Temporary Password</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7560" origId="9097" fieldName="phone" >
+<DisplayLabel>Phone</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7561" origId="9059" fieldName="id" >
+<DisplayLabel>ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7562" origId="3283319" fieldName="googEmail" >
+<DisplayLabel>Use Gmail</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7563" origId="9067" fieldName="updatedBy" >
+<DisplayLabel>Updated By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7564" origId="9069" fieldName="updatedAt" >
+<DisplayLabel>Updated At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7565" origId="9081" fieldName="lastLogin" >
+<DisplayLabel>Last Login Time</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7566" origId="2370047" fieldName="locationId" >
+<DisplayLabel>Location</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7567" origId="12570505" fieldName="pwdUpdated_2" >
+<DisplayLabel>Password Expire At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7568" origId="9071" fieldName="loginName" >
+<DisplayLabel>Login Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7569" origId="31832" fieldName="customer" >
+<DisplayLabel>Customer</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7570" origId="3723817" fieldName="googCalendar" >
+<DisplayLabel>Synch Calendar</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7571" origId="9077" fieldName="language" >
+<DisplayLabel>Language</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7572" origId="9073" fieldName="role" >
+<DisplayLabel>User Role</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7573" origId="2370067" fieldName="job_title" >
+<DisplayLabel>Job Title</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7574" origId="9093" fieldName="middleName" >
+<DisplayLabel>Middle Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7575" origId="9099" fieldName="mobilePhone" >
+<DisplayLabel>Mobile Phone</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7576" origId="9083" fieldName="emailEncoding" >
+<DisplayLabel>Email Encoding</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7577" origId="9091" fieldName="firstName" >
+<DisplayLabel>First Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7578" origId="2370048" fieldName="departmentId" >
+<DisplayLabel>Department</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7579" origId="5913506" fieldName="isvSysName" >
+<DisplayLabel>ISV System Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7580" origId="3245476" fieldName="doNotAnimate" >
+<DisplayLabel>Do Not Animate Collapse</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7581" origId="5925731" fieldName="isvCopyright" >
+<DisplayLabel>ISV Copyright</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7582" origId="12626040" fieldName="isvTitleTemplate" >
+<DisplayLabel>ISV Title Template</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7583" origId="12570504" fieldName="pwdUpdated" >
+<DisplayLabel>Password Updated</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7584" origId="9065" fieldName="createdAt" >
+<DisplayLabel>Created At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7585" origId="9061" fieldName="name" >
+<DisplayLabel>User Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7586" origId="12149649" fieldName="displayLDF" >
+<DisplayLabel>LDF Filter</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7587" origId="9103" fieldName="email" >
+<DisplayLabel>Email Address</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7588" origId="30106" fieldName="mailFooter" >
+<DisplayLabel>Email Footer</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7589" origId="9095" fieldName="lastName" >
+<DisplayLabel>Last Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7590" origId="2647673" fieldName="isActive" >
+<DisplayLabel>Is Active</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7591" origId="2354871" fieldName="R2354869" >
+<DisplayLabel>Groups</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7592" origId="2352035" fieldName="isApprover" >
+<DisplayLabel>Is Approver</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7593" origId="9101" fieldName="fax" >
+<DisplayLabel>Fax</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7594" origId="9087" fieldName="rowsPerPage" >
+<DisplayLabel>Rows Per Page</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7595" origId="6652" fieldName="userProfilePic" >
+<DisplayLabel>User Profile Pic</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7596" origId="qT7RYwy-SjGNAjd9FVAmEQ" fieldName="sendWelcomeEmail" >
+<DisplayLabel>Send Welcome Email</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="314860" origId="X52bI7P6QnumCbMbRWv6Ng" fieldName="contactOwner1" >
+<DisplayLabel>ObjectA</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439835254" origId="qGhQ89fPSl6CskRgKxMshA" fieldName="contactOwner3" >
+<DisplayLabel>Loan Application</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439872266" origId="jsLpIV9zSIe8x8XDgDW7Nw" fieldName="assignedTo" >
+<DisplayLabel>ObjectAs</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439879394" origId="vdzaagfGQOyfICI1YA0Q8g" fieldName="createdByDefId" >
+<DisplayLabel>Created By Definition</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439879395" origId="vzBAl4s1Qv-ZwnPQEwedmw" fieldName="updatedByDefId" >
+<DisplayLabel>Updated By Definition</DisplayLabel>
+</DataFieldDef>
+</DataFieldDefs>
+<ListViews>
+<ListView id="7644" origId="9242" orderNo="0">
+<ViewName>All Users</ViewName>
+</ListView>
+<ListView id="7645" origId="5683345" orderNo="2">
+<ViewName>ISV Partners</ViewName>
+</ListView>
+</ListViews>
+<RelationshipDefs>
+<RelationshipDef id="439833373" origId="Er1tO2K4TeyZiW6c6qOFzw" relName="contactOwner3" objDef1="Loan_Application" objDef2="USER" typeDef1="$DEFAULT" singularName1="Loan Application" pluralName1="Loan Applications" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="false" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="7598" origId="190884" relName="USER_comm" objDef1="USER" objDef2="COMMLOG" singularName1="User" pluralName1="Users" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="singularName2" langCode="fr" text="Journal de communication" />
+<Translation  fieldName="singularName1" langCode="fr" text="Utilisateur" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Journaux de communication" />
+<Translation  fieldName="pluralName1" langCode="fr" text="Utilisateurs" />
+</Translations>
+</RelationshipDef><RelationshipDef id="7599" origId="2354869" relName="USER_GROUP" objDef1="$GROUP" objDef2="USER" singularName1="Group" pluralName1="Groups" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="pluralName2" langCode="fr" text="Utilisateurs" />
+<Translation  fieldName="pluralName1" langCode="fr" text="Groupes" />
+<Translation  fieldName="singularName1" langCode="fr" text="Groupe" />
+<Translation  fieldName="singularName2" langCode="fr" text="Utilisateur" />
+</Translations>
+</RelationshipDef><RelationshipDef id="7603" origId="188884" relName="RB188884" objDef1="meeting" objDef2="USER" singularName1="Meeting" pluralName1="Meetings" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="pluralName1" langCode="fr" text="R&#233;unions" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Utilisateurs" />
+<Translation  fieldName="singularName1" langCode="fr" text="R&#233;union" />
+<Translation  fieldName="singularName2" langCode="fr" text="Utilisateur" />
+</Translations>
+</RelationshipDef><RelationshipDef id="7611" origId="188885" relName="RB188885" objDef1="todo" objDef2="USER" singularName1="To-Do" pluralName1="To-Dos" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="pluralName1" langCode="fr" text="Actions &#224; effectuer" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Utilisateurs" />
+<Translation  fieldName="singularName1" langCode="fr" text="Action &#224; effectuer" />
+<Translation  fieldName="singularName2" langCode="fr" text="Utilisateur" />
+</Translations>
+</RelationshipDef><RelationshipDef id="7612" origId="2109951" relName="ORG_CHART" objDef1="USER" objDef2="USER" singularName1="Reports To" pluralName1="Reports To" singularName2="Direct Report" pluralName2="Direct Reports" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="singularName2" langCode="fr" text="Collaborateur direct" />
+<Translation  fieldName="singularName1" langCode="fr" text="Sup&#233;rieur" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Collaborateurs directs" />
+<Translation  fieldName="pluralName1" langCode="fr" text="Sup&#233;rieur" />
+</Translations>
+</RelationshipDef><RelationshipDef id="314744" origId="niGTBKoASRG-wAcjUq6f9g" relName="contactOwner1" objDef1="ObjectA2" objDef2="USER" singularName1="ObjectA" pluralName1="ObjectAs" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="false" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="439872264" origId="dvYYTXImRrqkintyzdLVcQ" relName="assignedTo" objDef1="ObjectA2" objDef2="USER" singularName1="ObjectA" pluralName1="ObjectAs" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="pluralName1" langCode="fr" text="ObjectAs" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Utilisateurs" />
+<Translation  fieldName="singularName2" langCode="fr" text="Utilisateur" />
+<Translation  fieldName="singularName1" langCode="fr" text="ObjectA" />
+</Translations>
+</RelationshipDef></RelationshipDefs>
+<Reports>
+<Report id="7646" origId="220684" objDefId="7538" reportType="T" isPrivate="false" isInternal="false" >
+<Name>All Users</Name>
+<Description>Show me a list of all Users</Description>
+<Props>
+<defSortAsc>true</defSortAsc>
+<childId>-1</childId>
+<parentId>-1</parentId>
+<relId>-1</relId>
+<defSortCol>7565</defSortCol>
+<totalBy>-1</totalBy>
+<tablet>true</tablet>
+<smartPhone>false</smartPhone>
+<chartId>-1</chartId>
+<desktop>true</desktop>
+</Props>
+<Columns>
+7577,7589,7585,7587,7572,7560,7565,</Columns>
+<Sections>
+</Sections>
+<Translations>
+<Translation  fieldName="description" langCode="fr" text="Afficher la liste de tous les utilisateurs" />
+<Translation  fieldName="name" langCode="fr" text="Tous les utilisateurs" />
+</Translations>
+</Report>
+</Reports>
+<Events>
+<Event id="7652" origId="12570506" orderNo="10" objDef="7538" configId="SendEmail" name="Send Password Expiration Notification" onWhat="2" relativeToId="7583" delay="1728000000" templateId="7648" changeFieldId="7583" isDeployed="false" objTypeId="0" >
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Envoyer une notification d'expiration du mot de passe" />
+</Translations>
+<ConditionB64>dmFyIG4gPSB7ISNDVVJSX0NVU1RNLmV4cGlyUG9saWN5fTsgdmFyIHggPSAneyFwd2RVcGRhdGVkfSc7IGlmIChuPD0wIHx8IHgubGVuZ3RoPT0wKSByZXR1cm4gZmFsc2U7IHZhciB0MSA9IChuZXcgRGF0ZSh4KSkuZ2V0VGltZSgpOyB2YXIgdDIgPSAobmV3IERhdGUoKSkuZ2V0VGltZSgpOyByZXR1cm4gdDErbioyNCo2MCo2MCoxMDAwIDwgdDI7</ConditionB64>
+<Props>
+<runDepTriggers>false</runDepTriggers>
+<objDefId2>-1</objDefId2>
+<recursType>0</recursType>
+<status>-1</status>
+<relId>-1</relId>
+<recursIntv>0</recursIntv>
+<fieldId>-1</fieldId>
+<reportId>-1</reportId>
+<selectorId>-1</selectorId>
+<to>{!email}</to>
+<from>fromUser</from>
+<id2>-1</id2>
+<mailTemplId>-1</mailTemplId>
+</Props>
+</Event>
+</Events>
+</DataObjectDef>
+<DataObjectDef id="7411" origId="190726" objDefName="COMMLOG" >
+<SingularName>Communication Log</SingularName>
+<PluralName>Communication Logs</PluralName>
+<Description>Communication Log</Description>
+<ObjTypeDefs>
+</ObjTypeDefs>
+<DataFieldDefs>
+<DataFieldDef id="7412" origId="5860" fieldName="from2" >
+<DisplayLabel>From</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7413" origId="190740" fieldName="id" >
+<DisplayLabel>ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7414" origId="190737" fieldName="updatedBy" >
+<DisplayLabel>Updated By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7415" origId="2539" fieldName="USER_comm" >
+<DisplayLabel>Users</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7416" origId="1801860" fieldName="R1801855" >
+<DisplayLabel>Meeting</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7417" origId="190730" fieldName="cc" >
+<DisplayLabel>CC</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7418" origId="190736" fieldName="createdAt" >
+<DisplayLabel>Created At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7419" origId="190729" fieldName="to" >
+<DisplayLabel>To</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7420" origId="190728" fieldName="name" >
+<DisplayLabel>Subject</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7421" origId="190738" fieldName="updatedAt" >
+<DisplayLabel>Updated At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7422" origId="190731" fieldName="bcc" >
+<DisplayLabel>BCC</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7423" origId="190739" fieldName="tag" >
+<DisplayLabel>Tags</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7424" origId="190735" fieldName="createdBy" >
+<DisplayLabel>Created By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7425" origId="190734" fieldName="commParent" >
+<DisplayLabel>Related To</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7426" origId="190732" fieldName="body" >
+<DisplayLabel>Message Body</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="7427" origId="190733" fieldName="commType" >
+<DisplayLabel>Type</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="306400" origId="B4GeC6YrRCCeKMDkR0LXiQ" fieldName="RBObjWithAllFields_c" >
+<DisplayLabel>RBObjWithAllFieldss</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="314862" origId="urWD-NTGT-mWGG0l1WgjZQ" fieldName="ObjectA2_comm" >
+<DisplayLabel>ObjectAs</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439799543" origId="x5dMYYtWTRyi4iw6ivLIKQ" fieldName="Vendor2_comm" >
+<DisplayLabel>Vendors</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439835253" origId="FmjjUrG_ST6gO16rssttKQ" fieldName="Loan_Application_com" >
+<DisplayLabel>Loan Applications</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439879396" origId="RuIcNYt8T_qJltfVOuHIxA" fieldName="createdByDefId" >
+<DisplayLabel>Created By Definition</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="439879397" origId="xxRf4uJNRU-fGLpnV8fhFw" fieldName="updatedByDefId" >
+<DisplayLabel>Updated By Definition</DisplayLabel>
+</DataFieldDef>
+</DataFieldDefs>
+<ListViews>
+<ListView id="7613" origId="190804" orderNo="0">
+<ViewName>All Communication Logs</ViewName>
+</ListView>
+<ListView id="7614" origId="191690" orderNo="0">
+<ViewName>All Communication Logs</ViewName>
+</ListView>
+</ListViews>
+<RelationshipDefs>
+<RelationshipDef id="439799294" origId="ku9vaF5IQFmxTk5Uehc1cg" relName="Vendor2_comm" objDef1="Vendor2" objDef2="COMMLOG" singularName1="Vendor" pluralName1="Vendors" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="305252" origId="8GEQCSjcSRuOLjMHKNBx-Q" relName="RBObjWithAllFields_c" objDef1="RBObjWithAllFields" objDef2="COMMLOG" singularName1="RBObjWithAllFields" pluralName1="RBObjWithAllFieldss" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="439833372" origId="yDI7yEVoRdaJ5q1MPfaYTQ" relName="Loan_Application_com" objDef1="Loan_Application" objDef2="COMMLOG" typeDef1="$DEFAULT" singularName1="Loan Application" pluralName1="Loan Applications" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="7597" origId="1801855" relName="R1801855" objDef1="meeting" objDef2="COMMLOG" singularName1="Meeting" pluralName1="Meetings" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="singularName1" langCode="fr" text="R&#233;union" />
+<Translation  fieldName="singularName2" langCode="fr" text="Journal de communication" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Journaux de communication" />
+<Translation  fieldName="pluralName1" langCode="fr" text="R&#233;unions" />
+</Translations>
+</RelationshipDef><RelationshipDef id="7598" origId="190884" relName="USER_comm" objDef1="USER" objDef2="COMMLOG" singularName1="User" pluralName1="Users" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="singularName2" langCode="fr" text="Journal de communication" />
+<Translation  fieldName="singularName1" langCode="fr" text="Utilisateur" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Journaux de communication" />
+<Translation  fieldName="pluralName1" langCode="fr" text="Utilisateurs" />
+</Translations>
+</RelationshipDef><RelationshipDef id="314745" origId="6J9Mi-nvSkezGrSS_i8naQ" relName="ObjectA2_comm" objDef1="ObjectA2" objDef2="COMMLOG" singularName1="ObjectA" pluralName1="ObjectAs" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef></RelationshipDefs>
+</DataObjectDef>
+</DependentDefs>
+<DataObjectDefs>
+<DataObjectDef id="314725" origId="p1Ey04WZTBOCcbQ1Yh7APQ" objDefName="ObjectA2" isSystem="false" isAuditable="false" isViewable="false" isFlaggable="false" isDependent="false" isDeployed="true" isExtensible="false" >
+<Props>
+<isManaged>false</isManaged>
+<auditCreate>false</auditCreate>
+<defProcess>-1</defProcess>
+<auditView>false</auditView>
+<enableReports>true</enableReports>
+<auditDelete>false</auditDelete>
+<googSynch>false</googSynch>
+<auditEdit>false</auditEdit>
+</Props>
+<SingularName>ObjectA</SingularName>
+<PluralName>ObjectAs</PluralName>
+<NameTemplate>{!firstName} {!lastName}</NameTemplate>
+<ObjTypeDefs>
+</ObjTypeDefs>
+<DataFieldDefs>
+<DataFieldDef id="314726" origId="Swb7ecJXT1GNnUbob4P8fQ" objDef="314725" columnName="OBJ_NAME" fieldName="name" groupName="OBJNAME" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.ObjectLink" isRequired="false" isReadOnly="true" isTextIndexable="true" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>ObjectA</DisplayLabel>
+<Props>
+<isLocalized>true</isLocalized>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314727" origId="Szt47KpPSQaATegi3RxleQ" objDef="314725" fieldName="comment" groupName="COMMENT" dataClassName="com.rb.core.data.definition.FieldComment" uiClassName="com.rb.core.ui.web.field.CommentsArea" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Comments</DisplayLabel>
+<Props>
+<rows>10</rows>
+<cols>60</cols>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314728" origId="4ycsvXt4QomRfDriAUY_pA" objDef="314725" columnName="STR0" fieldName="firstName" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.TextInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>First Name</DisplayLabel>
+<Props>
+<isLocalized>true</isLocalized>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314729" origId="qvGmk-TNQIeRdHcf3R7qhA" objDef="314725" columnName="STR1" fieldName="title" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.TextInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Title</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314730" origId="OXE1ARK1S-KiLnGqbQNuGA" objDef="314725" columnName="STR2" fieldName="middleName" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.TextInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Middle Name</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314731" origId="1nvL-Sk2QbaZPGx3leZCcQ" objDef="314725" columnName="STR3" fieldName="mobilePhone" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.PhoneInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Mobile Phone</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314732" origId="ysL73IvHTp2RywAf4JQhqQ" objDef="314725" columnName="STR4" fieldName="lastName" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.TextInput" isRequired="true" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Last Name</DisplayLabel>
+<Props>
+<isLocalized>true</isLocalized>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314733" origId="I-_AKwQsQLu8mDevTZX85w" objDef="314725" columnName="STR5" fieldName="email" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.EmailInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Email Address</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314734" origId="AEOBQkVnT2q2qrT4ExSCKw" objDef="314725" columnName="STR6" fieldName="phone" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.PhoneInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Phone</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314735" origId="vKt-fTUjTqa4uw1FueAt9w" objDef="314725" columnName="INTG0" fieldName="contactOwner1" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldRelationship" uiClassName="com.rb.core.ui.web.field.Relationship" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="0" objTypeId="0" >
+<DisplayLabel>Contact Owner</DisplayLabel>
+<Props>
+<relId>314744</relId>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314736" origId="2yA5bC8OSumjAsZeW8UUbg" objDef="314725" columnName="STR7" fieldName="fax" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.PhoneInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="50" objTypeId="0" >
+<DisplayLabel>Fax</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314737" origId="w5_8FDrxSLWs7uih3E37fQ" objDef="314725" fieldName="vCard" groupName="CONTACT" dataClassName="com.rb.core.data.definition.FieldDummy" uiClassName="com.rb.core.ui.web.field.CalendarAttachment" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>vCard File</DisplayLabel>
+<Description>Use this link to synchronize contact with Microsoft Outlook or other program.</Description>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314738" origId="4qLdabY3QjGU_4-Mh382XQ" objDef="314725" columnName="CREATED_BY" fieldName="createdBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Created By</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314739" origId="6QX3_JdnS7KkhPEhQQQtEw" objDef="314725" columnName="CREATED_AT" fieldName="createdAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Created At</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314740" origId="uZQF2myJSA6kedW8Zd3EtA" objDef="314725" columnName="UPDATED_BY" fieldName="updatedBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Updated By</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314741" origId="iATsGkvhTkecAIo0KkHKjw" objDef="314725" columnName="UPDATED_AT" fieldName="updatedAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Updated At</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314742" origId="Wh8ZpXXjTUSRS2OlNkiCHg" objDef="314725" columnName="OBJ_ID" fieldName="id" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.IntInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>ID</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314743" origId="ZBMGbEyRRe6-REwXYTePgA" objDef="314725" fieldName="Full_Name" dataClassName="com.rb.core.data.definition.FieldDummy" uiClassName="com.rb.core.ui.web.field.FormulaField" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="0" objTypeId="0" >
+<DisplayLabel>Full Name</DisplayLabel>
+<Props>
+<currencyCode>USD</currencyCode>
+<returnType>4</returnType>
+<isvShared>false</isvShared>
+<hideLabel>false</hideLabel>
+<decimalPlaces>0</decimalPlaces>
+<formatIndex>13</formatIndex>
+<formulaB64>cmV0dXJuICJ7IWZpcnN0TmFtZX0geyFsYXN0TmFtZX0iOw==</formulaB64>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="314861" origId="FQGhF_keTnmydxQRHvBZzQ" objDef="314725" columnName="INTG1" fieldName="ObjectA2_comm" dataClassName="com.rb.core.data.definition.FieldRelationship" uiClassName="com.rb.core.ui.web.field.Relationship" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="0" objTypeId="0" >
+<DisplayLabel>Communication Log</DisplayLabel>
+<Props>
+<relId>314745</relId>
+</Props>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872258" origId="X6onVM3GQ6mnAdi--_RRmg" objDef="314725" columnName="STR8" fieldName="evSubject" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.TextInput" isRequired="true" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="100" objTypeId="0" >
+<DisplayLabel>Event Subject</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Objet de l'&#233;v&#233;nement" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872259" origId="TH5a0I_9TyGdb_jvupSxLw" objDef="314725" columnName="INTG2" fieldName="duration" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DurationSelect" isRequired="true" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Duration</DisplayLabel>
+<Description>Duration of this event</Description>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Dur&#233;e" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872260" origId="kjdbhYmfT5iaZam6xV3Jmg" objDef="314725" columnName="EVENT_DATE" fieldName="startDate" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.EventStartDate" isRequired="true" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Date/Time</DisplayLabel>
+<Description>Event's start date and time</Description>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Date/heure" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872261" origId="vzv_eJepTkuBCC0TVwDibQ" objDef="314725" columnName="INTG3" fieldName="isPrivate" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldBoolean" uiClassName="com.rb.core.ui.web.field.CheckBox" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Private</DisplayLabel>
+<Description>Show this event on public calendar?</Description>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Priv&#233;" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872262" origId="ZQJR42G3RD6Mbue9qfj6Dw" objDef="314725" columnName="TXT0" fieldName="description" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldText" uiClassName="com.rb.core.ui.web.field.TextArea" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Description</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Description" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872263" origId="EgwcfjwPQY6glcvEcSYhTQ" objDef="314725" columnName="STR9" fieldName="location" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.TextInput" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="100" objTypeId="0" >
+<DisplayLabel>Location</DisplayLabel>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Site" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872265" origId="QHYFj97lS_meppKlql36KQ" objDef="314725" columnName="INTG4" fieldName="assignedTo" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldRelationship" uiClassName="com.rb.core.ui.web.field.Relationship" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="0" objTypeId="0" >
+<DisplayLabel>Assigned To</DisplayLabel>
+<Props>
+<relId>439872264</relId>
+</Props>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Attribu&#233; &#224;" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872267" origId="K4bj9vSmRBOweQFECiZNIQ" objDef="314725" columnName="INTG5" fieldName="reminderMin" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.ReminderSelect" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Pop-up Reminder</DisplayLabel>
+<Description>Display reminder popup in (mins)</Description>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Fen&#234;tre de rappel" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872268" origId="-ej9zneYT9ejYXa-fX-_rA" objDef="314725" columnName="INTG6" fieldName="reminded" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldBoolean" uiClassName="com.rb.core.ui.web.field.CheckBox" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Reminded</DisplayLabel>
+<Description>Reminder popup has been displayed</Description>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Rappel&#233;" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439872269" origId="C3-pIRMwSwSiY25bILYh9g" objDef="314725" fieldName="iCal" groupName="EVENT" dataClassName="com.rb.core.data.definition.FieldDummy" uiClassName="com.rb.core.ui.web.field.CalendarAttachment" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="false" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>iCalendar File</DisplayLabel>
+<Description>Use this link to synchronize event with Microsoft Outlook or other calendar.</Description>
+<Translations>
+<Translation  fieldName="displayLabel" langCode="fr" text="Fichier iCalendar" />
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439879384" origId="uatAUZV-QW6uos9q_EAduw" objDef="314725" columnName="CREATED_BY_DEF_ID" fieldName="createdByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="0" objTypeId="0" >
+<DisplayLabel>Created By Definition</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+<DataFieldDef id="439879385" origId="kXSbh7xMTiiFIeMVPNwr0g" objDef="314725" columnName="UPDATED_BY_DEF_ID" fieldName="updatedByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="0" objTypeId="0" >
+<DisplayLabel>Updated By Definition</DisplayLabel>
+<Translations>
+</Translations>
+</DataFieldDef>
+</DataFieldDefs>
+<FieldDependencies>
+</FieldDependencies>
+<RelationshipDefs>
+<RelationshipDef id="314744" origId="niGTBKoASRG-wAcjUq6f9g" relName="contactOwner1" objDef1="314725" objDef2="7538" singularName1="ObjectA" pluralName1="ObjectAs" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="false" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="314745" origId="6J9Mi-nvSkezGrSS_i8naQ" relName="ObjectA2_comm" objDef1="314725" objDef2="7411" singularName1="ObjectA" pluralName1="ObjectAs" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+</Translations>
+</RelationshipDef><RelationshipDef id="439872264" origId="dvYYTXImRrqkintyzdLVcQ" relName="assignedTo" objDef1="314725" objDef2="7538" singularName1="ObjectA" pluralName1="ObjectAs" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+<Translations>
+<Translation  fieldName="pluralName1" langCode="fr" text="ObjectAs" />
+<Translation  fieldName="pluralName2" langCode="fr" text="Utilisateurs" />
+<Translation  fieldName="singularName2" langCode="fr" text="Utilisateur" />
+<Translation  fieldName="singularName1" langCode="fr" text="ObjectA" />
+</Translations>
+</RelationshipDef></RelationshipDefs>
+<ListViews>
+<ListView id="314746" origId="dzFF1xplT5uWi-9H4BGcRA" orderNo="0" objDefId="314725" isSystem="true" objTypeId="0" >
+<ViewName>All ObjectAs</ViewName>
+<Translations>
+</Translations>
+<Props>
+<smartPhone>true</smartPhone>
+<tablet>true</tablet>
+<defSortCol>314741</defSortCol>
+<defSortAsc>false</defSortAsc>
+<desktop>true</desktop>
+</Props>
+<Columns>
+314726,314741,314740,314743,</Columns>
+</ListView>
+</ListViews>
+<Templates>
+<Template type="doc" id="314747" origId="-pEo8w4mQlmpcO5T_Dv8iw" objDef="314725" name="test" contentType="text/html; charset=UTF-8" fileName="tmp_164910552934515526.html" objTypeId="0" >
+<Props>
+<renderPdf>false</renderPdf>
+<isPrivate>false</isPrivate>
+<isReadOnly>false</isReadOnly>
+</Props>
+<RawData>PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PVVURi04Ij4NCjx0aXRsZT50ZXN0PC90aXRsZT4NCjx0YWJsZSBib3JkZXI9IjEiPg0KPHRyPjx0ZD57IWZpcnN0TmFtZX08L3RkPjx0ZD57IWxhc3ROYW1lfTwvdGQ+PHRkPnshRnVsbF9OYW1lfTwvdGQ+PC90cj4NCjwvaHRtbD4=</RawData>
+<Translations>
+</Translations>
+</Template>
+<Template type="doc" id="439751753" origId="53zbg120R-2p-8mZs0R-qg" objDef="314725" name="font test" contentType="text/html; charset=UTF-8" fileName="tmp_3413033840215601328.html" objTypeId="0" >
+<Props>
+<renderPdf>true</renderPdf>
+<pdfPagesToSkipHeader>0</pdfPagesToSkipHeader>
+<pdfMargin>20</pdfMargin>
+<pdfFooterA>center</pdfFooterA>
+<pdfPagesToSkipFooter>0</pdfPagesToSkipFooter>
+<pdfPageHeight>null</pdfPageHeight>
+<pdfPage>LETTER</pdfPage>
+<isReadOnly>false</isReadOnly>
+<isPrivate>false</isPrivate>
+<pdfEnableHyperLinks>false</pdfEnableHyperLinks>
+<pdfLandscape>false</pdfLandscape>
+<pageBreakForEachRecord>false</pageBreakForEachRecord>
+<pdfSmartTableBreaks>false</pdfSmartTableBreaks>
+<pdfPageWidth>null</pdfPageWidth>
+<pdfHeaderA>center</pdfHeaderA>
+<pageBreakForEachSection>false</pageBreakForEachSection>
+</Props>
+<RawData>PGh0bWw+DQo8c2NyaXB0Pg0KYm9keSB7DQogZm9udC1mYW1pbHk6IFJvYm90by1SZWd1bGFyLCBMYXRvICwgc2Fucy1zZXJpZiwgRHJvaWQgU2FucyBGYWxsYmFjazsNCiB9DQo8L3NjcmlwdD4NCjxib2R5Pg0KPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPg0KPHRpdGxlPnRlc3Q8L3RpdGxlPg0KPHRhYmxlIGJvcmRlcj0iMSI+DQo8dHI+PHRkPnshZmlyc3ROYW1lfTwvdGQ+PHRkPnshbGFzdE5hbWV9PC90ZD48dGQ+eyFGdWxsX05hbWV9PC90ZD48L3RyPg0KPHRyPjx0ZD7kvaDlpb08L3RyPjwvdGQ+PC90YWJsZT4uDQo8L2JvZHk+DQo8L2h0bWw+</RawData>
+<Translations>
+</Translations>
+</Template>
+</Templates>
+<Events>
+<Event id="314748" origId="lIXpUQZwTR2j7K_sADI__Q" orderNo="1" objDef="314725" configId="HttpSOAP" name="test" onWhat="0" relativeToId="-1" delay="0" templateId="314747" changeFieldId="-1" isDeployed="true" objTypeId="0" >
+<Translations>
+</Translations>
+<Props>
+<rbs-rest-service-no-of-retries>3</rbs-rest-service-no-of-retries>
+<runDepTriggers>false</runDepTriggers>
+<rbs-rest-service-status-codes>300-505</rbs-rest-service-status-codes>
+<encoding>6</encoding>
+<recursType>0</recursType>
+<exception>true</exception>
+<targetUrl>https://www.rrcoding.com</targetUrl>
+<recursIntv>0</recursIntv>
+<enableRetry>false</enableRetry>
+<chunked>true</chunked>
+<recursMax>0</recursMax>
+<timeout>5000</timeout>
+<contentType>text/xml; charset=UTF-8</contentType>
+<rbs-rest-service-retry-interval>1000</rbs-rest-service-retry-interval>
+</Props>
+</Event>
+</Events>
+<MobileCards>
+</MobileCards>
+<Translations>
+</Translations>
+</DataObjectDef>
+</DataObjectDefs>
+<Menus>
+<Menu id="314851" origId="QXk9DbbAQeKx9AdtsG86Ig" objDefId="314725" orderNo="1" parentId="-1" pageDefId="314822" >
+<DisplayName>ObjectAs</DisplayName>
+<Props>
+<smartPhone>true</smartPhone>
+<tablet>true</tablet>
+<tabLogoType>0</tabLogoType>
+<desktop>true</desktop>
+</Props>
+<Translations>
+</Translations>
+<Menus><Menu id="314852" origId="6h1EJW5WQa6cFRO6kZDKhw" objDefId="314725" orderNo="1" parentId="314851" pageDefId="314835" >
+<DisplayName>New ObjectA</DisplayName>
+<Translations>
+</Translations>
+</Menu>
+<Menu id="314853" origId="36lQ-U4oSKqlyhY7NK0aSg" objDefId="314725" orderNo="2" parentId="314851" pageDefId="314815" >
+<DisplayName>Search</DisplayName>
+<Translations>
+</Translations>
+</Menu>
+<Menu id="314854" origId="Dfwpd_tPRF6uzAHLwUrDVg" objDefId="314725" orderNo="3" parentId="314851" pageDefId="314751" >
+<DisplayName>Import</DisplayName>
+<Translations>
+</Translations>
+</Menu>
+<Menu id="314855" origId="iqoCYVh9Si-JNCFgrSjVCQ" objDefId="314725" orderNo="4" parentId="314851" pageDefId="314750" >
+<DisplayName>Templates</DisplayName>
+<Translations>
+</Translations>
+</Menu>
+</Menus></Menu>
+</Menus>
+<WebPageDefs>
+<WebPageDef id="314822" origId="40ML1dyAQK28nVOn-Or-3Q" isPortal="false" objDefId="314725" pageType="22" >
+<PageDefName>ObjectAs List</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314823" origId="9Q-TUXhZQCOdHLPjFR7IIA" pageDefId="314822" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>ObjectAs List</PageName>
+<PageSections>
+<PageSection id="314824" origId="g_z4B319RC60So7ezOJL_Q" pageId="314823" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>All ObjectAs</SectionTitle>
+<PageCells>
+<PageCell id="314825" origId="Tcf4e5fVQxaBuzwKBUc-vg" sectionId="314824" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.PageableList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>314725</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314816" origId="GfE2PIXySuyjEajzMbWGug" isPortal="false" objDefId="314725" pageType="7" >
+<PageDefName>ObjectAs Selector List</PageDefName>
+<JspName>../m/selector.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314817" origId="KnaJIAJ-Qymf4ksfN1Cftg" pageDefId="314816" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>ObjectAs Selector List</PageName>
+<PageSections>
+<PageSection id="314818" origId="MfVgjYaHR6ycQOgG9zSXag" pageId="314817" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Search Form</SectionTitle>
+<PageCells>
+<PageCell id="314819" origId="VaDstyZcRWGOnfH7ST7PEg" sectionId="314818" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SelectorSearch" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314820" origId="ILN1JUjMTlqA9K5qmZVfjw" pageId="314817" orderNo="1" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>ObjectAs Selector</SectionTitle>
+<PageCells>
+<PageCell id="314821" origId="8EvLKJw7QjqSbjV7evURPA" sectionId="314820" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SelectorList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>314725</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314752" origId="yAn0B--dR_a2tZnuJ0lu5Q" isPortal="false" objDefId="314725" pageType="17" >
+<PageDefName>Mass Update</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314753" origId="ZiWYc1RAQ2eTNVQQkVzJDw" pageDefId="314752" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Mass Update</PageName>
+<PageSections>
+<PageSection id="314754" origId="58yKKO-ER9-2PWaCW8uckg" pageId="314753" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="314755" origId="F4Aunrw5QnGM9qu3qOIYbg" sectionId="314754" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.MassUpdateFormBegin" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314756" origId="sZ5kiparRmahIKUCEeiqzQ" pageId="314753" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Mass Update</SectionTitle>
+<PageCells>
+<PageCell id="314757" origId="fiGzItzpTxG7lyIJskb3Bw" sectionId="314756" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.TemplateHTML" >
+<TextB64>TWFzcyBVcGRhdGUgcGFnZXMgYWxsb3cgeW91IHRvIGNoYW5nZSBmaWVsZCB2YWx1ZXMgZm9yIG11bHRpcGxlIHJlY29yZHMgc2ltdWx0YW5lb3VzbHkuIDxzdHJvbmc+QW55IGZpZWxkcyBsZWZ0IGJsYW5rIHdpbGwgbm90IGJlIHVwZGF0ZWQuPC9zdHJvbmc+IFlvdSBvciB5b3VyIGFkbWluaXN0cmF0b3IgY2FuIGVkaXQgdGhpcyBwYWdlIHRvIGFkZCBvciByZW1vdmUgZmllbGRzIHlvdSB3YW50IHRvIGJlIGFibGUgdG8gdXBkYXRlIGZyb20gdGhpcyBwYWdlLg==</TextB64>
+<Translations>
+</Translations>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314758" origId="ipZhfBzJRpGDLKMOR3UFvw" pageId="314753" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="314759" origId="BdBJAtB-RXeWlms4AJLgvQ" sectionId="314758" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314785" origId="0pAkN7jkRp-wN7UGNOYWPw" isPortal="false" objDefId="314725" pageType="1" >
+<PageDefName>View ObjectA</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314786" origId="rs9YlsqbTtyXwt2o8gc2Ew" pageDefId="314785" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>View ObjectA</PageName>
+<PageSections>
+<PageSection id="314787" origId="8UtLDB3gR6yMfa-14NCn9g" pageId="314786" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="314788" origId="suVXZlQjRr6wOD6OAJ_soQ" sectionId="314787" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectViewBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314789" origId="KwNoc6krTyCgMtLED0N3bA" pageId="314786" orderNo="1" borderStyle="1" columns="2" viewTabNo="0" pageColNo="0" isCollapsable="true" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Contact Information</SectionTitle>
+<PageCells>
+<PageCell id="314790" origId="rFv-Fh38TrOPkhSQNhEDww" sectionId="314789" orderNo="0" alignment="0" fieldId="314728" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314791" origId="bqMzUndiT-SiZG3uOhENug" sectionId="314789" orderNo="1" alignment="1" fieldId="314729" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314792" origId="HfevaR1MQL2A_mSXdIKS_g" sectionId="314789" orderNo="2" alignment="0" fieldId="314730" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314793" origId="ZiJZkyeFT5OING2iuTfpLA" sectionId="314789" orderNo="3" alignment="1" fieldId="314731" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314794" origId="lvfWV6BaSK-wM6LWEqhcpg" sectionId="314789" orderNo="4" alignment="0" fieldId="314732" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314795" origId="fv1GVbVhTKuzhnMGP9YG3A" sectionId="314789" orderNo="5" alignment="1" fieldId="314733" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314796" origId="FRyYcXBsQhyGay6pp7KMfg" sectionId="314789" orderNo="6" alignment="0" fieldId="314734" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314797" origId="sZqpOOmcRQ2f-znlrv_3Qg" sectionId="314789" orderNo="7" alignment="1" fieldId="314735" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314798" origId="u1Ih5HsyRzeejQg_Cc263g" sectionId="314789" orderNo="8" alignment="0" fieldId="314736" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314799" origId="-W7x-BO3Rim6lvUSDo87uA" sectionId="314789" orderNo="9" alignment="1" fieldId="314737" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314800" origId="B3vyBOV0Qii1mVc9IJA9tw" sectionId="314789" orderNo="10" alignment="0" fieldId="314743" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="439872279" origId="Grf-n0bURDiGfRvOIr4qnA" pageId="314786" orderNo="2" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="true" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Event Information</SectionTitle>
+<PageCells>
+<PageCell id="439872280" origId="lJrn7jj8SC-DHuVFnoFh-A" sectionId="439872279" orderNo="0" alignment="0" fieldId="439872258" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872281" origId="sZXsOzk9TG6LLpkK7AXhXQ" sectionId="439872279" orderNo="1" alignment="0" fieldId="439872259" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872282" origId="G7XSUiFjTZG-Vd3OyF-NLg" sectionId="439872279" orderNo="2" alignment="0" fieldId="439872260" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872283" origId="qwTiOuG3QvqbslvIoBmk0A" sectionId="439872279" orderNo="3" alignment="0" fieldId="439872261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872284" origId="KkY5uNzvQDSM1w_iG-eVIA" sectionId="439872279" orderNo="4" alignment="0" fieldId="439872262" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872285" origId="8Td9EM1yQA2w-iJJlnAt-g" sectionId="439872279" orderNo="5" alignment="0" fieldId="439872263" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872286" origId="ekEPWtQPQcG3o265fFvCgw" sectionId="439872279" orderNo="6" alignment="0" fieldId="439872265" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872287" origId="pbNPJLxZQNaKPs-QBqEyhg" sectionId="439872279" orderNo="7" alignment="0" fieldId="439872267" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872288" origId="jju_XwxSTT6vl4h57uuWkw" sectionId="439872279" orderNo="8" alignment="0" fieldId="439872268" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872289" origId="TnWvLZYWTqeT3sR5xftjwQ" sectionId="439872279" orderNo="9" alignment="0" fieldId="439872269" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Donn&#233;es d'&#233;v&#233;nement" />
+</Translations>
+</PageSection>
+<PageSection id="314809" origId="h7ds37nOQOeOVHUwWgtd9A" pageId="314786" orderNo="3" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="true" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Communication Log</SectionTitle>
+<PageCells>
+<PageCell id="314810" origId="XQvI7HkPRNGo9ckjHWiSVA" sectionId="314809" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.RelatedList" >
+<TextB64>Q29tbXVuaWNhdGlvbiBMb2c=</TextB64>
+<Props>
+<objDefId2>7411</objDefId2>
+<relId>314745</relId>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314801" origId="MW17LN09TvGv2ugEJLsV-w" pageId="314786" orderNo="4" borderStyle="1" columns="2" viewTabNo="1" pageColNo="0" isCollapsable="true" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>System Information</SectionTitle>
+<PageCells>
+<PageCell id="314802" origId="pSoRorsVQFKVWuLNTRTe-A" sectionId="314801" orderNo="0" alignment="0" fieldId="314738" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314803" origId="ZuBCRv9XQY2eCKc60kggMQ" sectionId="314801" orderNo="1" alignment="1" fieldId="314739" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314804" origId="w4G0YU-6TeGoOywssTw47g" sectionId="314801" orderNo="2" alignment="0" fieldId="314740" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314805" origId="iLQSKQP_RtGzjbBAnax0LA" sectionId="314801" orderNo="3" alignment="1" fieldId="314741" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314806" origId="VJJtYahGTKCQv_Ur_JXJwA" sectionId="314801" orderNo="4" alignment="0" fieldId="314742" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314807" origId="nrqD-I7JRaKRZtj_LNwVoA" pageId="314786" orderNo="5" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="314808" origId="awA3fLBQS2K95X6KkToVvA" sectionId="314807" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectViewEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Props>
+<enableTabs>true</enableTabs>
+<tabName1>System Info</tabName1>
+<numTabs>2</numTabs>
+<tabName0>ObjectA Info</tabName0>
+</Props>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314760" origId="ckYmVNX7TLCF1kTm0O1Fdg" isPortal="false" objDefId="314725" pageType="6" >
+<PageDefName>Status Change</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314761" origId="BMgTqFLOQEeidPFPZEkCyA" pageDefId="314760" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Status Change</PageName>
+<PageSections>
+<PageSection id="314762" origId="rGzAQP-8TnueKvd9S-7FHQ" pageId="314761" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="314763" origId="UJiPabwoQUGnzuk98_qGqg" sectionId="314762" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.StatusFormBegin" >
+<TextB64>U3RhdHVzIENoYW5nZQ==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314764" origId="0Vnbm7R1QrSNcF_2KSYg3w" pageId="314761" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Confirm Status Change</SectionTitle>
+<PageCells>
+<PageCell id="314765" origId="HNLxbBDPS-a4zLZBoU0_QA" sectionId="314764" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.TemplateHTML" >
+<TextB64>Q2hhbmdlIHRoZSBXb3JrZmxvdyBTdGF0dXMgb2YgPHN0cm9uZz57IW5hbWV9PC9zdHJvbmc+IHRvIDxzdHJvbmc+eyFuZXh0U3RhdHVzfTwvc3Ryb25nPiA/</TextB64>
+<Translations>
+</Translations>
+</PageCell>
+<PageCell id="314766" origId="jGrE2e9zSGer3pEF7H_aNg" sectionId="314764" orderNo="1" alignment="0" fieldId="314727" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314767" origId="ye2W6daTSlqQNmSYX6g_tQ" pageId="314761" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="314768" origId="u-vrke1FSnepDtEB8w1I5w" sectionId="314767" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>U3RhdHVzIENoYW5nZQ==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314826" origId="wS7ZGIMmQ9O-pZmldxikpQ" isPortal="false" objDefId="314725" pageType="18" >
+<PageDefName>Quick Create</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314827" origId="HBJnrrEPRrK1jd-x7afZxg" pageDefId="314826" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Quick Create</PageName>
+<PageSections>
+<PageSection id="314828" origId="OHTA6tGCTEmO4h-_gaOphQ" pageId="314827" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="314829" origId="-PUBMky0TWGCrxjcpCv0-Q" sectionId="314828" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.QuickCreateFormBegin" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314830" origId="oZToeBRzRT6s2rlgOIwn6g" pageId="314827" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Quick Create</SectionTitle>
+<PageCells>
+<PageCell id="314831" origId="i1_y_pp5Qae0Xe4z1YxiDA" sectionId="314830" orderNo="0" alignment="0" fieldId="314726" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314832" origId="4c1OVkmmQH2C3CoLaUiVvg" sectionId="314830" orderNo="1" alignment="0" fieldId="314732" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314833" origId="MXSgU6r5TVGrN745O7tTBg" pageId="314827" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="314834" origId="Bh34aNTLTUKNKaFwClZPog" sectionId="314833" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314769" origId="V_rO5pkVRVWSpO9LEi7iXw" isPortal="false" objDefId="314725" pageType="2" >
+<PageDefName>Edit ObjectA</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314770" origId="4jDRRfghQvy-YTbXgh6bzw" pageDefId="314769" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Edit ObjectA</PageName>
+<PageSections>
+<PageSection id="314771" origId="ZbjfzQNBQbWjEwp-Fsp6oA" pageId="314770" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="314772" origId="T9EzFpuRS36F4BN4Rp3PcQ" sectionId="314771" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314773" origId="sJdeTzE7T2mKWCVbEvfbiQ" pageId="314770" orderNo="1" borderStyle="1" columns="2" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Contact Information</SectionTitle>
+<PageCells>
+<PageCell id="314774" origId="iDJw3ZfrQc-Au7DB0h-_1A" sectionId="314773" orderNo="0" alignment="0" fieldId="314728" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314775" origId="PQ_3HaJTQFGW_IXb_CNvpw" sectionId="314773" orderNo="1" alignment="1" fieldId="314729" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314776" origId="9E80qQEgTAmDe946Z0i8zA" sectionId="314773" orderNo="2" alignment="0" fieldId="314730" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314777" origId="XoIkOYD5QDuQGFkcTnuvQw" sectionId="314773" orderNo="3" alignment="1" fieldId="314731" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314778" origId="J3N-egpHTRqw48WXds1bjA" sectionId="314773" orderNo="4" alignment="0" fieldId="314732" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314779" origId="1lZoKuMuTvq9duyYCoo1Yg" sectionId="314773" orderNo="5" alignment="1" fieldId="314733" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314780" origId="pqJ2vbGRQwKIPf1zUxbsdg" sectionId="314773" orderNo="6" alignment="0" fieldId="314734" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314781" origId="YO1G-POvRLiwNIvidUFrfg" sectionId="314773" orderNo="7" alignment="1" fieldId="314735" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314782" origId="coQxJoV7QxGKvYHuY5Zsbw" sectionId="314773" orderNo="8" alignment="0" fieldId="314736" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="439872270" origId="N2UE7iR1SSWnvSSGYkJdGw" pageId="314770" orderNo="2" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Event Information</SectionTitle>
+<PageCells>
+<PageCell id="439872271" origId="NP9YdLphQXiBzWErOdg4BA" sectionId="439872270" orderNo="0" alignment="0" fieldId="439872258" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872272" origId="yZ1K85FQQa-Knl5d23pmKw" sectionId="439872270" orderNo="1" alignment="0" fieldId="439872259" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872273" origId="WYoHh8uASx6_ArHGEjrgqA" sectionId="439872270" orderNo="2" alignment="0" fieldId="439872260" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872274" origId="NP2dyuiPREGfIPO6Fgf5Eg" sectionId="439872270" orderNo="3" alignment="0" fieldId="439872261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872275" origId="AxBW8zBcRYq1Ux1hCOsMrQ" sectionId="439872270" orderNo="4" alignment="0" fieldId="439872262" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872276" origId="AFGFn0ZjRgeoI3zTJ8QIfg" sectionId="439872270" orderNo="5" alignment="0" fieldId="439872263" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872277" origId="n2ap0cD_SyCA5mgMgSbHTg" sectionId="439872270" orderNo="6" alignment="0" fieldId="439872265" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872278" origId="ZicIB6XmR7W5X5qnrLr1Lw" sectionId="439872270" orderNo="7" alignment="0" fieldId="439872267" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Donn&#233;es d'&#233;v&#233;nement" />
+</Translations>
+</PageSection>
+<PageSection id="314783" origId="SfjrPyDbTC-AcOsaxbl22w" pageId="314770" orderNo="3" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="314784" origId="XCJEpryoTsupOCaL0XkQsg" sectionId="314783" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314835" origId="AEgXkyInTlygACZXkofuwA" isPortal="false" objDefId="314725" pageType="3" >
+<PageDefName>New ObjectA</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314836" origId="CseRqE4rSzeVES-STvttBw" pageDefId="314835" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>New ObjectA</PageName>
+<PageSections>
+<PageSection id="314837" origId="JA_n9DNKQ4us0t5_J5wgWA" pageId="314836" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="314838" origId="fLEcpvb4RLOK26wJ9_2b5A" sectionId="314837" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="314839" origId="VheqI9W0T2alDt6g8QVkaA" pageId="314836" orderNo="1" borderStyle="1" columns="2" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Contact Information</SectionTitle>
+<PageCells>
+<PageCell id="314840" origId="EzLANJRZS263IRErGSZtiw" sectionId="314839" orderNo="0" alignment="0" fieldId="314728" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314841" origId="frxDlN_MR6C_1idjZ629yw" sectionId="314839" orderNo="1" alignment="1" fieldId="314729" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314842" origId="Eh0N02cfS06CE-HJReQcmw" sectionId="314839" orderNo="2" alignment="0" fieldId="314730" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314843" origId="suwFxer8TE6Nwtx3hDot0w" sectionId="314839" orderNo="3" alignment="1" fieldId="314731" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314844" origId="JIHR69VCRXKCH-1UgFWknQ" sectionId="314839" orderNo="4" alignment="0" fieldId="314732" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314845" origId="LoYerWA1Q9itPLe74_9_2A" sectionId="314839" orderNo="5" alignment="1" fieldId="314733" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314846" origId="oOQel_aERq21R6ceQ_JTKw" sectionId="314839" orderNo="6" alignment="0" fieldId="314734" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314847" origId="Oh9BTKrHQkObM0RLsU_Shg" sectionId="314839" orderNo="7" alignment="1" fieldId="314735" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="314848" origId="xfQYyhA3QNSdyzPN5LaJBw" sectionId="314839" orderNo="8" alignment="0" fieldId="314736" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+<PageSection id="439872290" origId="sQuexQbbSXmHBL2sJaT9lw" pageId="314836" orderNo="2" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Event Information</SectionTitle>
+<PageCells>
+<PageCell id="439872291" origId="Sm9OPu1rSPmwfgGi8Qo8zg" sectionId="439872290" orderNo="0" alignment="0" fieldId="439872258" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872292" origId="qpAKYMoIQ66BinePEsDWvA" sectionId="439872290" orderNo="1" alignment="0" fieldId="439872259" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872293" origId="JE0VwEfpSd2ZGlxncmdVmA" sectionId="439872290" orderNo="2" alignment="0" fieldId="439872260" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872294" origId="y6V61-CzQNKpjPzVjpYmUQ" sectionId="439872290" orderNo="3" alignment="0" fieldId="439872261" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872295" origId="xtNZ8WDKQxOyxzB5kD1yqg" sectionId="439872290" orderNo="4" alignment="0" fieldId="439872262" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872296" origId="fcvnXN9DTSS9iPyrzOBjeA" sectionId="439872290" orderNo="5" alignment="0" fieldId="439872263" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872297" origId="PaH90A7fQQ2tQpn97igb3Q" sectionId="439872290" orderNo="6" alignment="0" fieldId="439872265" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="439872298" origId="VaFSCcqJTG-NbYrp0qp80w" sectionId="439872290" orderNo="7" alignment="0" fieldId="439872267" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+<Translations>
+<Translation  fieldName="name" langCode="fr" text="Donn&#233;es d'&#233;v&#233;nement" />
+</Translations>
+</PageSection>
+<PageSection id="314849" origId="VRHBJJdyQOO_hdyCTXTLdQ" pageId="314836" orderNo="3" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="314850" origId="raW1V7LPSvmQDXw_KSCzyQ" sectionId="314849" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314749" origId="aH7zRwb1Rk2-nv6OiIIJZA" isPortal="false" objDefId="314725" pageType="21" >
+<PageDefName>Questions</PageDefName>
+<JspName>../components/questions.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314750" origId="y0nmKi1sR-C2ibFFhFvV6A" isPortal="false" objDefId="314725" pageType="12" >
+<PageDefName>Templates</PageDefName>
+<JspName>../m/templates.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314815" origId="anKHB4TDRlKF8xZVSV30FA" isPortal="false" objDefId="314725" pageType="4" >
+<PageDefName>Search</PageDefName>
+<JspName>../m/search.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314751" origId="wgHDZAR2Q8qgfAE-gCV1bw" isPortal="false" objDefId="314725" pageType="10" >
+<PageDefName>Import</PageDefName>
+<JspName>../m/import.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+<WebPageDef id="314811" origId="E8pLghYsTRKzcPZV2JCdQg" isPortal="false" objDefId="314725" pageType="5" >
+<PageDefName>Search Results</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<Props>
+<isManaged>false</isManaged>
+</Props>
+<WebPages>
+<WebPage id="314812" origId="77c8S_vOQtKryun3vYAjmQ" pageDefId="314811" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Search Results</PageName>
+<PageSections>
+<PageSection id="314813" origId="lNC9fvLFR7O4ie4mHWaW9g" pageId="314812" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>ObjectAs Search Results</SectionTitle>
+<PageCells>
+<PageCell id="314814" origId="H6JGNxRlRlazmyd5FQM76A" sectionId="314813" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SearchResultsList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>314725</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+<Translations>
+</Translations>
+</PageSection>
+</PageSections>
+<Translations>
+</Translations>
+</WebPage>
+</WebPages>
+<Translations>
+</Translations>
+</WebPageDef>
+</WebPageDefs>
+<Portals>
+</Portals>
+<CustomReports>
+</CustomReports>
+<Permissions><Permission resId="46" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="47" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="48" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="510" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="46" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="47" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="48" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="510" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="48" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="46" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="47" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="44" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="45" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7538" prId="93" actionsSet="7">
+</Permission>
+<Permission resId="44" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="45" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="44" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="45" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7538" prId="91" actionsSet="1">
+</Permission>
+<Permission resId="42" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="41" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="500" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="520" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="42" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="41" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="520" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="500" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7538" prId="99" actionsSet="15">
+</Permission>
+<Permission resId="43" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="40" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="43" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="40" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7644" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="7644" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7645" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="530" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="530" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7645" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="555" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="556" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="557" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="558" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="559" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="560" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="561" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="562" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7646" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="7646" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="563" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="555" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="556" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="557" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="558" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="559" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="560" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="561" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="562" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="563" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="564" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="555" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="556" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="557" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="558" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="559" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="560" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="561" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="562" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="563" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="564" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7538" prId="98" actionsSet="15">
+</Permission>
+<Permission resId="564" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="40" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="41" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="553" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="42" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="554" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="43" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="49" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7645" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7411" prId="98" actionsSet="15">
+</Permission>
+<Permission resId="7411" prId="91" actionsSet="1">
+</Permission>
+<Permission resId="7411" prId="99" actionsSet="15">
+</Permission>
+<Permission resId="7613" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7614" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="7613" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="7614" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="7411" prId="93" actionsSet="15">
+</Permission>
+<Permission resId="314852" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="314853" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="314854" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="314855" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7644" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7613" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7614" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="7411" prId="7598" actionsSet="1">
+</Permission>
+<Permission resId="7538" prId="7612" actionsSet="5">
+</Permission>
+</Permissions><RolePages>
+</RolePages>
+<Translations>
+</Translations>
+<SeedRecords encrypted="1">
+<DataObject id="314859" origId="VvpgKJ-pTSeZsVdJxnNqOw" objDefId="314725" >
+<Field name="firstName">Ricardo 1</Field>
+<Field name="lastName">&amp; Rafols</Field>
+<Field name="isPrivate">false</Field>
+</DataObject>
+</SeedRecords>
+</Application>
